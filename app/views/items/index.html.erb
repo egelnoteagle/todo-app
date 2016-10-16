@@ -1,0 +1,9 @@
+<h1>Todo list: </h1>
+
+<div ng-app="app">
+  <div ng-controller="itemCtrl">
+    <div ng-repeat="item in item">
+      <h2 ng-click="toggleItem(item)">{{ item.text }}</h2>
+    </div>
+  </div>
+</div>
